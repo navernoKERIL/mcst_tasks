@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c11
+CFLAGS ?= -Wall -Wextra -std=c11
 TARGET = task5
 SRCS = task5.c
 
